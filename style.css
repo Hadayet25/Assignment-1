@@ -1,0 +1,42 @@
+*body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.common-max-width {
+    max-width: 700px;
+    margin: auto;
+}
+
+/* Start navbar style */
+.navbar-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 700px;
+    margin: auto;
+}
+
+.navbar-logo img {
+    height: 30px;
+    width: 100%;
+}
+
+.navbar-items ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    font-size: 12px;
+}
+
+.common-btn {
+    background-color: rgb(99, 99, 243);
+    color: white;
+    text-align: center;
+    border-radius: 7px;
+    padding: 10px 20px 10px 20px;
+    border-style: none;
+}
+
+/* End navbar section */
