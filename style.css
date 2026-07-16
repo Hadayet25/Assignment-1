@@ -40,3 +40,41 @@
 }
 
 /* End navbar section */
+/* Hero section */
+.hero-section {
+    height: 300px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    background:
+        linear-gradient(to right,
+            rgba(0, 0, 0, 1),
+            rgba(0, 0, 0, .6),
+            rgba(112, 0, 255, .2)),
+        url("assets/banner.jpg");
+
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-section h1 {
+    font-size: 40px;
+    color: white;
+}
+
+.hero-section p {
+    max-width: 400px;
+    color: white;
+    font-size: 12px;
+}
+
+.hero-section button {
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
