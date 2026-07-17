@@ -1,0 +1,1 @@
+I want to create an awesome layout about explore workshop tracks using html and CSS. Now guide me as a senior developer what steps I will follow to create explore workshop tracks.
