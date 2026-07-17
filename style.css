@@ -97,7 +97,7 @@
 
 .meet-card img {
     width: 100%;
-    display:block;
+    display: block;
 }
 
 .personal-info h4 {
@@ -117,3 +117,81 @@
     padding: 5px;
 }
 
+/* Secure spot */
+
+.secure-head {
+    margin-top: 15px;
+    text-align: center;
+    gap: 15px;
+}
+
+.secure-full {
+    display: flex;
+    gap: 10px;
+}
+
+.secure-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    width: 400px;
+}
+
+.secure-card ul {
+    flex: 1;
+    padding-left: 15px;
+    line-height: 2;
+}
+
+.secure-card p {
+    margin: 0;
+}
+
+.secure-card h1 {
+    margin: 10px 0;
+    font-size: 50px;
+}
+
+.secure-card li {
+    font-size: 12px;
+}
+
+.secure-card hr {
+    width: 100%;
+    margin: 25px 0;
+}
+
+.secure-card button {
+
+    padding: 10px;
+
+    border: 1px solid rgb(165, 183, 235);
+
+    background: white;
+
+    color: rgb(110, 144, 247);
+
+    border-radius: 8px;
+
+}
+
+.card-highlight {
+
+    background: #131f2e;
+    color: white;
+}
+
+.card-highlight button {
+    background-color: rgb(99, 99, 243);
+    color: white;
+    text-align: center;
+    border-radius: 7px;
+    padding: 10px 20px 10px 20px;
+    border-style: none;
+}
+
+.card-highlight ul li::marker {
+    color: rgb(95, 95, 240);
+}
